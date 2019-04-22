@@ -50,4 +50,3 @@ func handleMsgBuyName(ctx sdk.Context, keeper Keeper, msg MsgBuyName) sdk.Result
 	keeper.SetPrice(ctx, msg.Name, msg.Bid)
 	return sdk.Result{}
 }
-git
